@@ -36,7 +36,7 @@ git clone https://github.com/Dsouza-Malcolm/nextjs-product-listing-page.git
 2. Navigate to the root directory
 
 ```
-cd product-listing-page
+cd nextjs-product-listing-page
 ```
 
 3. Install dependencies
@@ -76,3 +76,9 @@ To use the system, follow these steps:
 1. Open the application in your browser by navigating to http://localhost:3000.
 2. Use the search bar to filter products by their titles.
 3. Click on the "View Details" button on any product to see more detailed information in a modal.
+
+## Notes
+1. Ensure you have a stable internet connection to fetch data from the Fake Store API.
+2. If you encounter any issues during installation or setup, please refer to the official Next.js documentation or open an issue in the GitHub repository.
+3. 
+By following these steps, you should be able to set up and use the product listing page successfully.
