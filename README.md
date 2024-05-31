@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Listing Page
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## About <a name = "about"></a>
+
+This project is a product listing page built using Next.js. It fetches products from the [Fake Store API](https://fakestoreapi.com/) and displays them in a grid. Users can search for products and view detailed information about each product.
+
+## Getting Started <a name = "getting_started"></a>
+
+These instructions will get you a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+What things you need to install the software and how to install them.
+
+```
+Node.js (version 20 or later)
+npm (version 10 or later) or yarn (version 1.22.22 or later)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+A step by step series of examples that tell you how to get a development env running.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository
 
-## Learn More
+```bash
+git clone https://github.com/Dsouza-Malcolm/nextjs-product-listing-page.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the root directory
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+cd product-listing-page
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Install dependencies
 
-## Deploy on Vercel
+Using npm:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Or Using yarn:
+
+```
+yarn install
+```
+
+1. All set Run the development server
+
+Using npm:
+
+```
+npm run dev
+```
+
+Or using yarn:
+
+```
+yarn dev
+```
+
+The development server will start at http://localhost:3000.
+
+## Usage <a name = "usage"></a>
+
+To use the system, follow these steps:
+
+1. Open the application in your browser by navigating to http://localhost:3000.
+2. Use the search bar to filter products by their titles.
+3. Click on the "View Details" button on any product to see more detailed information in a modal.
