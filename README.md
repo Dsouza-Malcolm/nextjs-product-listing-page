@@ -53,7 +53,7 @@ Or Using yarn:
 yarn install
 ```
 
-1. All set Run the development server
+4. All set Run the development server
 
 Using npm:
 
