@@ -80,5 +80,5 @@ To use the system, follow these steps:
 ## Notes
 1. Ensure you have a stable internet connection to fetch data from the Fake Store API.
 2. If you encounter any issues during installation or setup, please refer to the official Next.js documentation or open an issue in the GitHub repository.
-3. 
+
 By following these steps, you should be able to set up and use the product listing page successfully.
